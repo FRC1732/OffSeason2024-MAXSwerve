@@ -69,7 +69,7 @@ public class RobotContainer {
    * {@link JoystickButton}.
    */
   private void configureButtonBindings() {
-    translateJoystick.button(0).whileTrue(new RunCommand(
+    translateJoystick.button(1).whileTrue(new RunCommand(
             () -> m_robotDrive.setX(),
             m_robotDrive));
   }
